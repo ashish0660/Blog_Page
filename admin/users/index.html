@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scal=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- font Awesome-->
+
+<link rel="stylesheet" type="text/css" href="F:\font awesome\fontawesome-free-5.14.0-web\fontawesome-free-5.14.0-web\css\all.css">
+
+<!--custom styling -->
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+
+<!--custom styling -->
+<link rel="stylesheet" type="text/css" href="../../css/admin.css">
+
+
+<head>
+	<title>Admin section - manage Users</title>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<h1 class="logo-text"><span>Web</span>media</h1>
+		</div>
+		<i class="fa fa-bars menu-toggle"></i>
+		<ul class="nav">
+			<!-- class is use for drop down symboll 'fa-chevron-down'  -->
+
+			<li>
+				<a href="#">
+					<i class="fa fa-user"></i>
+					web media
+					<i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+				</a>
+				<ul>
+					<li><a href="#" class="logout">Logout</a></li>
+				</ul>
+			</li>
+		</ul>
+	</header>
+
+	<!-- admin page wrapper -->
+
+			<div class="admin-wrapper">
+
+				<!-- Left sidebar -->
+				<div class="left-sidebar">
+					<ul>
+						<li><a href="../posts/index.html">Manage Posts</a></li>
+						<li><a href="index.html">Manage Users</a></li>
+						<li><a href="../topics/index.html">Manage Topics</a></li>
+					</ul>
+				</div>
+
+				<!-- // left sidebar -->
+
+				<!-- Admin content -->
+				<div class="admin-content">
+
+					<div class="button-group">
+						<a href="create.html" class="btn btn-big">Add User</a>
+						<a href="index.html" class="btn btn-big">Manage Users</a>
+					</div>
+
+					<div class="content">
+						<h2 class="page-title">Manage Users</h2>
+						<table>
+							<thead>
+								<th>SN</th>
+								<th>Username</th>
+								<th>Role</th>
+								<th colspan="2">Action</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Ashish</td>
+									<td>Admin</td>
+									<td><a href="#" class="edit">edit</a></td>
+									<td><a href="#" class="delete">delete</a></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Singh</td>
+									<td>Author</td>
+									<td><a href="#" class="edit">edit</a></td>
+									<td><a href="#" class="delete">delete</a></td>
+									
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<!-- //Admin content -->
+			</div>				
+							<!-------------------   //Admin page wrapper ---------------------> 
+
+
+							<!---------------------- 	jquary   	----------------------------->
+	
+						<script src="../../jquery-3.5.1.js"></script>
+
+						
+
+							<!---------------------- Custom script ------------------------------>
+							
+						<script src="../../js/scripts.js"></script>
+	</body>
+</html>
